@@ -17,6 +17,8 @@ f8c32b13ff142a513eeb5b6330b1588dcb2c0461/jcl-over-slf4j-1.7.25.jar
 0cd5970bd13fa85f7bed41ca606d6daf7cbf1365/jcl-over-slf4j-1.7.5.jar
 4517e9bc2befda7ff86ed4ca1c31912342ba2eb0/jcl-over-slf4j-1.7.5.pom
 02e8405d8bfa257bbacb60a3c1cb6dcd08933fba/jcl-over-slf4j-1.7.7.pom
+0af5364cd6679bfffb114f0dec8a157aaa283b76/jul-to-slf4j-1.7.25.jar
+16087adff3efe354a294183376599d95a2cb0e13/jul-to-slf4j-1.7.25.pom
 ccb0e52bbd185b5c66c312ceb7f4cb57387ca2fe/slf4j-api-1.5.3.jar
 619cbd690baf5466300578a3ed7bc257cbe8fe71/slf4j-api-1.5.3.pom
 ec9b7142625dfa1dcaf22db99ecb7c555ffa714d/slf4j-api-1.5.6.jar
@@ -45,6 +47,8 @@ debb3a87ccca32b5fea19cd6ba109655ecc18b6b/slf4j-nop-1.6.4.pom
 8521938f0f43c60b79f9f73a9409d10e4bac649a/slf4j-parent-1.7.25.pom
 2955681f952b108824dfb16ca366f36f3cef7861/slf4j-parent-1.7.5.pom
 f2513e07f3e241f72c1e4917c17275e1d90b0b45/slf4j-parent-1.7.7.pom
+6998922e7ac5ab307bd51c233776a67da0031298/slf4j-simple-1.6.4.jar
+254cf3bc654118320c4350e8e08e51bfe753caa3/slf4j-simple-1.6.4.pom
 af3cd3ad1ea4b08b27b54f12529b4bf343bc5ca1/slf4j-simple-1.7.25-sources.jar
 8dacf9514f0c707cbbcdd6fd699e8940d42fb54e/slf4j-simple-1.7.25.jar
 650f38e49a96a606eca4f49ec822e0bedd0d3863/slf4j-simple-1.7.25.pom
@@ -101,3 +105,7 @@ c3d8f604130f467fb3230f37d99771835d5f15dc/jul-to-slf4j-1.7.16.pom
 2d5b546c5557dcbf08c3a381d7dc9bd275a602c1/jul-to-slf4j-1.7.16.jar
 110cefe2df103412849d72ef7a67e4e91e4266b4/slf4j-log4j12-1.7.25.jar
 ef4c260a46d6e09db56b885d47388a3bcf9d260b/slf4j-log4j12-1.7.25.pom
+6998922e7ac5ab307bd51c233776a67da0031298/slf4j-simple-1.6.4.jar
+254cf3bc654118320c4350e8e08e51bfe753caa3/slf4j-simple-1.6.4.pom
+0af5364cd6679bfffb114f0dec8a157aaa283b76/jul-to-slf4j-1.7.25.jar
+16087adff3efe354a294183376599d95a2cb0e13/jul-to-slf4j-1.7.25.pom
