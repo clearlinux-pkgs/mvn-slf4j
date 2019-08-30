@@ -4,7 +4,7 @@
 #
 Name     : mvn-slf4j
 Version  : 1.5.6
-Release  : 9
+Release  : 10
 URL      : https://repo1.maven.org/maven2/org/slf4j/jcl-over-slf4j/1.5.6/jcl-over-slf4j-1.5.6.jar
 Source0  : https://repo1.maven.org/maven2/org/slf4j/jcl-over-slf4j/1.5.6/jcl-over-slf4j-1.5.6.jar
 Source1  : https://repo.gradle.org/gradle/libs-releases/org/slf4j/jcl-over-slf4j/1.7.10/jcl-over-slf4j-1.7.10.jar
@@ -36,52 +36,58 @@ Source26  : https://repo1.maven.org/maven2/org/slf4j/jcl-over-slf4j/1.7.25/jcl-o
 Source27  : https://repo1.maven.org/maven2/org/slf4j/jcl-over-slf4j/1.7.25/jcl-over-slf4j-1.7.25.pom
 Source28  : https://repo1.maven.org/maven2/org/slf4j/jcl-over-slf4j/1.7.5/jcl-over-slf4j-1.7.5.jar
 Source29  : https://repo1.maven.org/maven2/org/slf4j/jcl-over-slf4j/1.7.5/jcl-over-slf4j-1.7.5.pom
-Source30  : https://repo1.maven.org/maven2/org/slf4j/jcl-over-slf4j/1.7.7/jcl-over-slf4j-1.7.7.pom
-Source31  : https://repo1.maven.org/maven2/org/slf4j/jul-to-slf4j/1.7.25/jul-to-slf4j-1.7.25.jar
-Source32  : https://repo1.maven.org/maven2/org/slf4j/jul-to-slf4j/1.7.25/jul-to-slf4j-1.7.25.pom
-Source33  : https://repo1.maven.org/maven2/org/slf4j/slf4j-api/1.5.3/slf4j-api-1.5.3.jar
-Source34  : https://repo1.maven.org/maven2/org/slf4j/slf4j-api/1.5.3/slf4j-api-1.5.3.pom
-Source35  : https://repo1.maven.org/maven2/org/slf4j/slf4j-api/1.5.6/slf4j-api-1.5.6.jar
-Source36  : https://repo1.maven.org/maven2/org/slf4j/slf4j-api/1.5.6/slf4j-api-1.5.6.pom
-Source37  : https://repo1.maven.org/maven2/org/slf4j/slf4j-api/1.6.1/slf4j-api-1.6.1.jar
-Source38  : https://repo1.maven.org/maven2/org/slf4j/slf4j-api/1.6.1/slf4j-api-1.6.1.pom
-Source39  : https://repo1.maven.org/maven2/org/slf4j/slf4j-api/1.6.4/slf4j-api-1.6.4.jar
-Source40  : https://repo1.maven.org/maven2/org/slf4j/slf4j-api/1.6.4/slf4j-api-1.6.4.pom
-Source41  : https://repo1.maven.org/maven2/org/slf4j/slf4j-api/1.7.10/slf4j-api-1.7.10.jar
-Source42  : https://repo1.maven.org/maven2/org/slf4j/slf4j-api/1.7.10/slf4j-api-1.7.10.pom
-Source43  : https://repo1.maven.org/maven2/org/slf4j/slf4j-api/1.7.16/slf4j-api-1.7.16.jar
-Source44  : https://repo1.maven.org/maven2/org/slf4j/slf4j-api/1.7.16/slf4j-api-1.7.16.pom
-Source45  : https://repo1.maven.org/maven2/org/slf4j/slf4j-api/1.7.25/slf4j-api-1.7.25.jar
-Source46  : https://repo1.maven.org/maven2/org/slf4j/slf4j-api/1.7.25/slf4j-api-1.7.25.pom
-Source47  : https://repo1.maven.org/maven2/org/slf4j/slf4j-api/1.7.5/slf4j-api-1.7.5.jar
-Source48  : https://repo1.maven.org/maven2/org/slf4j/slf4j-api/1.7.5/slf4j-api-1.7.5.pom
-Source49  : https://repo1.maven.org/maven2/org/slf4j/slf4j-api/1.7.7/slf4j-api-1.7.7.jar
-Source50  : https://repo1.maven.org/maven2/org/slf4j/slf4j-api/1.7.7/slf4j-api-1.7.7.pom
-Source51  : https://repo1.maven.org/maven2/org/slf4j/slf4j-jdk14/1.5.6/slf4j-jdk14-1.5.6.jar
-Source52  : https://repo1.maven.org/maven2/org/slf4j/slf4j-jdk14/1.5.6/slf4j-jdk14-1.5.6.pom
-Source53  : https://repo1.maven.org/maven2/org/slf4j/slf4j-log4j12/1.6.1/slf4j-log4j12-1.6.1.jar
-Source54  : https://repo1.maven.org/maven2/org/slf4j/slf4j-log4j12/1.6.1/slf4j-log4j12-1.6.1.pom
-Source55  : https://repo1.maven.org/maven2/org/slf4j/slf4j-log4j12/1.7.25/slf4j-log4j12-1.7.25.jar
-Source56  : https://repo1.maven.org/maven2/org/slf4j/slf4j-log4j12/1.7.25/slf4j-log4j12-1.7.25.pom
-Source57  : https://repo1.maven.org/maven2/org/slf4j/slf4j-nop/1.5.3/slf4j-nop-1.5.3.jar
-Source58  : https://repo1.maven.org/maven2/org/slf4j/slf4j-nop/1.5.3/slf4j-nop-1.5.3.pom
-Source59  : https://repo1.maven.org/maven2/org/slf4j/slf4j-nop/1.6.4/slf4j-nop-1.6.4.jar
-Source60  : https://repo1.maven.org/maven2/org/slf4j/slf4j-nop/1.6.4/slf4j-nop-1.6.4.pom
-Source61  : https://repo1.maven.org/maven2/org/slf4j/slf4j-parent/1.5.3/slf4j-parent-1.5.3.pom
-Source62  : https://repo1.maven.org/maven2/org/slf4j/slf4j-parent/1.5.6/slf4j-parent-1.5.6.pom
-Source63  : https://repo1.maven.org/maven2/org/slf4j/slf4j-parent/1.6.1/slf4j-parent-1.6.1.pom
-Source64  : https://repo1.maven.org/maven2/org/slf4j/slf4j-parent/1.6.4/slf4j-parent-1.6.4.pom
-Source65  : https://repo1.maven.org/maven2/org/slf4j/slf4j-parent/1.7.10/slf4j-parent-1.7.10.pom
-Source66  : https://repo1.maven.org/maven2/org/slf4j/slf4j-parent/1.7.25/slf4j-parent-1.7.25.pom
-Source67  : https://repo1.maven.org/maven2/org/slf4j/slf4j-parent/1.7.5/slf4j-parent-1.7.5.pom
-Source68  : https://repo1.maven.org/maven2/org/slf4j/slf4j-parent/1.7.7/slf4j-parent-1.7.7.pom
-Source69  : https://repo1.maven.org/maven2/org/slf4j/slf4j-simple/1.6.4/slf4j-simple-1.6.4.jar
-Source70  : https://repo1.maven.org/maven2/org/slf4j/slf4j-simple/1.6.4/slf4j-simple-1.6.4.pom
-Source71  : https://repo1.maven.org/maven2/org/slf4j/slf4j-simple/1.7.25/slf4j-simple-1.7.25-sources.jar
-Source72  : https://repo1.maven.org/maven2/org/slf4j/slf4j-simple/1.7.25/slf4j-simple-1.7.25.jar
-Source73  : https://repo1.maven.org/maven2/org/slf4j/slf4j-simple/1.7.25/slf4j-simple-1.7.25.pom
-Source74  : https://repo1.maven.org/maven2/org/slf4j/slf4j-simple/1.7.5/slf4j-simple-1.7.5.jar
-Source75  : https://repo1.maven.org/maven2/org/slf4j/slf4j-simple/1.7.5/slf4j-simple-1.7.5.pom
+Source30  : https://repo1.maven.org/maven2/org/slf4j/jcl-over-slf4j/1.7.7/jcl-over-slf4j-1.7.7.jar
+Source31  : https://repo1.maven.org/maven2/org/slf4j/jcl-over-slf4j/1.7.7/jcl-over-slf4j-1.7.7.pom
+Source32  : https://repo1.maven.org/maven2/org/slf4j/jul-to-slf4j/1.7.25/jul-to-slf4j-1.7.25.jar
+Source33  : https://repo1.maven.org/maven2/org/slf4j/jul-to-slf4j/1.7.25/jul-to-slf4j-1.7.25.pom
+Source34  : https://repo1.maven.org/maven2/org/slf4j/slf4j-api/1.5.3/slf4j-api-1.5.3.jar
+Source35  : https://repo1.maven.org/maven2/org/slf4j/slf4j-api/1.5.3/slf4j-api-1.5.3.pom
+Source36  : https://repo1.maven.org/maven2/org/slf4j/slf4j-api/1.5.6/slf4j-api-1.5.6.jar
+Source37  : https://repo1.maven.org/maven2/org/slf4j/slf4j-api/1.5.6/slf4j-api-1.5.6.pom
+Source38  : https://repo1.maven.org/maven2/org/slf4j/slf4j-api/1.6.1/slf4j-api-1.6.1.jar
+Source39  : https://repo1.maven.org/maven2/org/slf4j/slf4j-api/1.6.1/slf4j-api-1.6.1.pom
+Source40  : https://repo1.maven.org/maven2/org/slf4j/slf4j-api/1.6.4/slf4j-api-1.6.4.jar
+Source41  : https://repo1.maven.org/maven2/org/slf4j/slf4j-api/1.6.4/slf4j-api-1.6.4.pom
+Source42  : https://repo1.maven.org/maven2/org/slf4j/slf4j-api/1.7.10/slf4j-api-1.7.10.jar
+Source43  : https://repo1.maven.org/maven2/org/slf4j/slf4j-api/1.7.10/slf4j-api-1.7.10.pom
+Source44  : https://repo1.maven.org/maven2/org/slf4j/slf4j-api/1.7.15/slf4j-api-1.7.15.jar
+Source45  : https://repo1.maven.org/maven2/org/slf4j/slf4j-api/1.7.15/slf4j-api-1.7.15.pom
+Source46  : https://repo1.maven.org/maven2/org/slf4j/slf4j-api/1.7.16/slf4j-api-1.7.16.jar
+Source47  : https://repo1.maven.org/maven2/org/slf4j/slf4j-api/1.7.16/slf4j-api-1.7.16.pom
+Source48  : https://repo1.maven.org/maven2/org/slf4j/slf4j-api/1.7.25/slf4j-api-1.7.25.jar
+Source49  : https://repo1.maven.org/maven2/org/slf4j/slf4j-api/1.7.25/slf4j-api-1.7.25.pom
+Source50  : https://repo1.maven.org/maven2/org/slf4j/slf4j-api/1.7.5/slf4j-api-1.7.5.jar
+Source51  : https://repo1.maven.org/maven2/org/slf4j/slf4j-api/1.7.5/slf4j-api-1.7.5.pom
+Source52  : https://repo1.maven.org/maven2/org/slf4j/slf4j-api/1.7.7/slf4j-api-1.7.7.jar
+Source53  : https://repo1.maven.org/maven2/org/slf4j/slf4j-api/1.7.7/slf4j-api-1.7.7.pom
+Source54  : https://repo1.maven.org/maven2/org/slf4j/slf4j-jdk14/1.5.6/slf4j-jdk14-1.5.6.jar
+Source55  : https://repo1.maven.org/maven2/org/slf4j/slf4j-jdk14/1.5.6/slf4j-jdk14-1.5.6.pom
+Source56  : https://repo1.maven.org/maven2/org/slf4j/slf4j-log4j12/1.6.1/slf4j-log4j12-1.6.1.jar
+Source57  : https://repo1.maven.org/maven2/org/slf4j/slf4j-log4j12/1.6.1/slf4j-log4j12-1.6.1.pom
+Source58  : https://repo1.maven.org/maven2/org/slf4j/slf4j-log4j12/1.7.25/slf4j-log4j12-1.7.25.jar
+Source59  : https://repo1.maven.org/maven2/org/slf4j/slf4j-log4j12/1.7.25/slf4j-log4j12-1.7.25.pom
+Source60  : https://repo1.maven.org/maven2/org/slf4j/slf4j-nop/1.5.3/slf4j-nop-1.5.3.jar
+Source61  : https://repo1.maven.org/maven2/org/slf4j/slf4j-nop/1.5.3/slf4j-nop-1.5.3.pom
+Source62  : https://repo1.maven.org/maven2/org/slf4j/slf4j-nop/1.6.4/slf4j-nop-1.6.4.jar
+Source63  : https://repo1.maven.org/maven2/org/slf4j/slf4j-nop/1.6.4/slf4j-nop-1.6.4.pom
+Source64  : https://repo1.maven.org/maven2/org/slf4j/slf4j-parent/1.5.3/slf4j-parent-1.5.3.pom
+Source65  : https://repo1.maven.org/maven2/org/slf4j/slf4j-parent/1.5.6/slf4j-parent-1.5.6.pom
+Source66  : https://repo1.maven.org/maven2/org/slf4j/slf4j-parent/1.6.1/slf4j-parent-1.6.1.pom
+Source67  : https://repo1.maven.org/maven2/org/slf4j/slf4j-parent/1.6.4/slf4j-parent-1.6.4.pom
+Source68  : https://repo1.maven.org/maven2/org/slf4j/slf4j-parent/1.7.10/slf4j-parent-1.7.10.pom
+Source69  : https://repo1.maven.org/maven2/org/slf4j/slf4j-parent/1.7.15/slf4j-parent-1.7.15.pom
+Source70  : https://repo1.maven.org/maven2/org/slf4j/slf4j-parent/1.7.25/slf4j-parent-1.7.25.pom
+Source71  : https://repo1.maven.org/maven2/org/slf4j/slf4j-parent/1.7.5/slf4j-parent-1.7.5.pom
+Source72  : https://repo1.maven.org/maven2/org/slf4j/slf4j-parent/1.7.7/slf4j-parent-1.7.7.pom
+Source73  : https://repo1.maven.org/maven2/org/slf4j/slf4j-simple/1.6.4/slf4j-simple-1.6.4.jar
+Source74  : https://repo1.maven.org/maven2/org/slf4j/slf4j-simple/1.6.4/slf4j-simple-1.6.4.pom
+Source75  : https://repo1.maven.org/maven2/org/slf4j/slf4j-simple/1.7.25/slf4j-simple-1.7.25-sources.jar
+Source76  : https://repo1.maven.org/maven2/org/slf4j/slf4j-simple/1.7.25/slf4j-simple-1.7.25.jar
+Source77  : https://repo1.maven.org/maven2/org/slf4j/slf4j-simple/1.7.25/slf4j-simple-1.7.25.pom
+Source78  : https://repo1.maven.org/maven2/org/slf4j/slf4j-simple/1.7.5/slf4j-simple-1.7.5.jar
+Source79  : https://repo1.maven.org/maven2/org/slf4j/slf4j-simple/1.7.5/slf4j-simple-1.7.5.pom
+Source80  : https://repo1.maven.org/maven2/org/slf4j/slf4j-simple/1.7.7/slf4j-simple-1.7.7.jar
+Source81  : https://repo1.maven.org/maven2/org/slf4j/slf4j-simple/1.7.7/slf4j-simple-1.7.7.pom
 Summary  : No detailed summary available
 Group    : Development/Tools
 License  : MIT
@@ -106,24 +112,6 @@ data components for the mvn-slf4j package.
 %install
 mkdir -p %{buildroot}/usr/share/java/.m2/repository/org/slf4j/jcl-over-slf4j/1.5.6
 cp %{SOURCE0} %{buildroot}/usr/share/java/.m2/repository/org/slf4j/jcl-over-slf4j/1.5.6/jcl-over-slf4j-1.5.6.jar
-
-mkdir -p %{buildroot}/usr/share/java/.m2/repository/org/slf4j/jcl-over-slf4j/1.7.10
-cp %{SOURCE1} %{buildroot}/usr/share/java/.m2/repository/org/slf4j/jcl-over-slf4j/1.7.10/jcl-over-slf4j-1.7.10.jar
-
-mkdir -p %{buildroot}/usr/share/java/.m2/repository/org/slf4j/jcl-over-slf4j/1.7.10
-cp %{SOURCE2} %{buildroot}/usr/share/java/.m2/repository/org/slf4j/jcl-over-slf4j/1.7.10/jcl-over-slf4j-1.7.10.pom
-
-mkdir -p %{buildroot}/usr/share/java/.m2/repository/org/slf4j/jul-to-slf4j/1.7.10
-cp %{SOURCE3} %{buildroot}/usr/share/java/.m2/repository/org/slf4j/jul-to-slf4j/1.7.10/jul-to-slf4j-1.7.10.jar
-
-mkdir -p %{buildroot}/usr/share/java/.m2/repository/org/slf4j/jul-to-slf4j/1.7.10
-cp %{SOURCE4} %{buildroot}/usr/share/java/.m2/repository/org/slf4j/jul-to-slf4j/1.7.10/jul-to-slf4j-1.7.10.pom
-
-mkdir -p %{buildroot}/usr/share/java/.m2/repository/org/slf4j/log4j-over-slf4j/1.7.10
-cp %{SOURCE5} %{buildroot}/usr/share/java/.m2/repository/org/slf4j/log4j-over-slf4j/1.7.10/log4j-over-slf4j-1.7.10.jar
-
-mkdir -p %{buildroot}/usr/share/java/.m2/repository/org/slf4j/log4j-over-slf4j/1.7.10
-cp %{SOURCE6} %{buildroot}/usr/share/java/.m2/repository/org/slf4j/log4j-over-slf4j/1.7.10/log4j-over-slf4j-1.7.10.pom
 
 mkdir -p %{buildroot}/usr/share/java/.m2/repository/org/slf4j/jcl-over-slf4j/1.7.16
 cp %{SOURCE7} %{buildroot}/usr/share/java/.m2/repository/org/slf4j/jcl-over-slf4j/1.7.16/jcl-over-slf4j-1.7.16.jar
@@ -195,142 +183,160 @@ mkdir -p %{buildroot}/usr/share/java/.m2/repository/org/slf4j/jcl-over-slf4j/1.7
 cp %{SOURCE29} %{buildroot}/usr/share/java/.m2/repository/org/slf4j/jcl-over-slf4j/1.7.5/jcl-over-slf4j-1.7.5.pom
 
 mkdir -p %{buildroot}/usr/share/java/.m2/repository/org/slf4j/jcl-over-slf4j/1.7.7
-cp %{SOURCE30} %{buildroot}/usr/share/java/.m2/repository/org/slf4j/jcl-over-slf4j/1.7.7/jcl-over-slf4j-1.7.7.pom
+cp %{SOURCE30} %{buildroot}/usr/share/java/.m2/repository/org/slf4j/jcl-over-slf4j/1.7.7/jcl-over-slf4j-1.7.7.jar
+
+mkdir -p %{buildroot}/usr/share/java/.m2/repository/org/slf4j/jcl-over-slf4j/1.7.7
+cp %{SOURCE31} %{buildroot}/usr/share/java/.m2/repository/org/slf4j/jcl-over-slf4j/1.7.7/jcl-over-slf4j-1.7.7.pom
 
 mkdir -p %{buildroot}/usr/share/java/.m2/repository/org/slf4j/jul-to-slf4j/1.7.25
-cp %{SOURCE31} %{buildroot}/usr/share/java/.m2/repository/org/slf4j/jul-to-slf4j/1.7.25/jul-to-slf4j-1.7.25.jar
+cp %{SOURCE32} %{buildroot}/usr/share/java/.m2/repository/org/slf4j/jul-to-slf4j/1.7.25/jul-to-slf4j-1.7.25.jar
 
 mkdir -p %{buildroot}/usr/share/java/.m2/repository/org/slf4j/jul-to-slf4j/1.7.25
-cp %{SOURCE32} %{buildroot}/usr/share/java/.m2/repository/org/slf4j/jul-to-slf4j/1.7.25/jul-to-slf4j-1.7.25.pom
+cp %{SOURCE33} %{buildroot}/usr/share/java/.m2/repository/org/slf4j/jul-to-slf4j/1.7.25/jul-to-slf4j-1.7.25.pom
 
 mkdir -p %{buildroot}/usr/share/java/.m2/repository/org/slf4j/slf4j-api/1.5.3
-cp %{SOURCE33} %{buildroot}/usr/share/java/.m2/repository/org/slf4j/slf4j-api/1.5.3/slf4j-api-1.5.3.jar
+cp %{SOURCE34} %{buildroot}/usr/share/java/.m2/repository/org/slf4j/slf4j-api/1.5.3/slf4j-api-1.5.3.jar
 
 mkdir -p %{buildroot}/usr/share/java/.m2/repository/org/slf4j/slf4j-api/1.5.3
-cp %{SOURCE34} %{buildroot}/usr/share/java/.m2/repository/org/slf4j/slf4j-api/1.5.3/slf4j-api-1.5.3.pom
+cp %{SOURCE35} %{buildroot}/usr/share/java/.m2/repository/org/slf4j/slf4j-api/1.5.3/slf4j-api-1.5.3.pom
 
 mkdir -p %{buildroot}/usr/share/java/.m2/repository/org/slf4j/slf4j-api/1.5.6
-cp %{SOURCE35} %{buildroot}/usr/share/java/.m2/repository/org/slf4j/slf4j-api/1.5.6/slf4j-api-1.5.6.jar
+cp %{SOURCE36} %{buildroot}/usr/share/java/.m2/repository/org/slf4j/slf4j-api/1.5.6/slf4j-api-1.5.6.jar
 
 mkdir -p %{buildroot}/usr/share/java/.m2/repository/org/slf4j/slf4j-api/1.5.6
-cp %{SOURCE36} %{buildroot}/usr/share/java/.m2/repository/org/slf4j/slf4j-api/1.5.6/slf4j-api-1.5.6.pom
+cp %{SOURCE37} %{buildroot}/usr/share/java/.m2/repository/org/slf4j/slf4j-api/1.5.6/slf4j-api-1.5.6.pom
 
 mkdir -p %{buildroot}/usr/share/java/.m2/repository/org/slf4j/slf4j-api/1.6.1
-cp %{SOURCE37} %{buildroot}/usr/share/java/.m2/repository/org/slf4j/slf4j-api/1.6.1/slf4j-api-1.6.1.jar
+cp %{SOURCE38} %{buildroot}/usr/share/java/.m2/repository/org/slf4j/slf4j-api/1.6.1/slf4j-api-1.6.1.jar
 
 mkdir -p %{buildroot}/usr/share/java/.m2/repository/org/slf4j/slf4j-api/1.6.1
-cp %{SOURCE38} %{buildroot}/usr/share/java/.m2/repository/org/slf4j/slf4j-api/1.6.1/slf4j-api-1.6.1.pom
+cp %{SOURCE39} %{buildroot}/usr/share/java/.m2/repository/org/slf4j/slf4j-api/1.6.1/slf4j-api-1.6.1.pom
 
 mkdir -p %{buildroot}/usr/share/java/.m2/repository/org/slf4j/slf4j-api/1.6.4
-cp %{SOURCE39} %{buildroot}/usr/share/java/.m2/repository/org/slf4j/slf4j-api/1.6.4/slf4j-api-1.6.4.jar
+cp %{SOURCE40} %{buildroot}/usr/share/java/.m2/repository/org/slf4j/slf4j-api/1.6.4/slf4j-api-1.6.4.jar
 
 mkdir -p %{buildroot}/usr/share/java/.m2/repository/org/slf4j/slf4j-api/1.6.4
-cp %{SOURCE40} %{buildroot}/usr/share/java/.m2/repository/org/slf4j/slf4j-api/1.6.4/slf4j-api-1.6.4.pom
+cp %{SOURCE41} %{buildroot}/usr/share/java/.m2/repository/org/slf4j/slf4j-api/1.6.4/slf4j-api-1.6.4.pom
 
 mkdir -p %{buildroot}/usr/share/java/.m2/repository/org/slf4j/slf4j-api/1.7.10
-cp %{SOURCE41} %{buildroot}/usr/share/java/.m2/repository/org/slf4j/slf4j-api/1.7.10/slf4j-api-1.7.10.jar
+cp %{SOURCE42} %{buildroot}/usr/share/java/.m2/repository/org/slf4j/slf4j-api/1.7.10/slf4j-api-1.7.10.jar
 
 mkdir -p %{buildroot}/usr/share/java/.m2/repository/org/slf4j/slf4j-api/1.7.10
-cp %{SOURCE42} %{buildroot}/usr/share/java/.m2/repository/org/slf4j/slf4j-api/1.7.10/slf4j-api-1.7.10.pom
+cp %{SOURCE43} %{buildroot}/usr/share/java/.m2/repository/org/slf4j/slf4j-api/1.7.10/slf4j-api-1.7.10.pom
+
+mkdir -p %{buildroot}/usr/share/java/.m2/repository/org/slf4j/slf4j-api/1.7.15
+cp %{SOURCE44} %{buildroot}/usr/share/java/.m2/repository/org/slf4j/slf4j-api/1.7.15/slf4j-api-1.7.15.jar
+
+mkdir -p %{buildroot}/usr/share/java/.m2/repository/org/slf4j/slf4j-api/1.7.15
+cp %{SOURCE45} %{buildroot}/usr/share/java/.m2/repository/org/slf4j/slf4j-api/1.7.15/slf4j-api-1.7.15.pom
 
 mkdir -p %{buildroot}/usr/share/java/.m2/repository/org/slf4j/slf4j-api/1.7.16
-cp %{SOURCE43} %{buildroot}/usr/share/java/.m2/repository/org/slf4j/slf4j-api/1.7.16/slf4j-api-1.7.16.jar
+cp %{SOURCE46} %{buildroot}/usr/share/java/.m2/repository/org/slf4j/slf4j-api/1.7.16/slf4j-api-1.7.16.jar
 
 mkdir -p %{buildroot}/usr/share/java/.m2/repository/org/slf4j/slf4j-api/1.7.16
-cp %{SOURCE44} %{buildroot}/usr/share/java/.m2/repository/org/slf4j/slf4j-api/1.7.16/slf4j-api-1.7.16.pom
+cp %{SOURCE47} %{buildroot}/usr/share/java/.m2/repository/org/slf4j/slf4j-api/1.7.16/slf4j-api-1.7.16.pom
 
 mkdir -p %{buildroot}/usr/share/java/.m2/repository/org/slf4j/slf4j-api/1.7.25
-cp %{SOURCE45} %{buildroot}/usr/share/java/.m2/repository/org/slf4j/slf4j-api/1.7.25/slf4j-api-1.7.25.jar
+cp %{SOURCE48} %{buildroot}/usr/share/java/.m2/repository/org/slf4j/slf4j-api/1.7.25/slf4j-api-1.7.25.jar
 
 mkdir -p %{buildroot}/usr/share/java/.m2/repository/org/slf4j/slf4j-api/1.7.25
-cp %{SOURCE46} %{buildroot}/usr/share/java/.m2/repository/org/slf4j/slf4j-api/1.7.25/slf4j-api-1.7.25.pom
+cp %{SOURCE49} %{buildroot}/usr/share/java/.m2/repository/org/slf4j/slf4j-api/1.7.25/slf4j-api-1.7.25.pom
 
 mkdir -p %{buildroot}/usr/share/java/.m2/repository/org/slf4j/slf4j-api/1.7.5
-cp %{SOURCE47} %{buildroot}/usr/share/java/.m2/repository/org/slf4j/slf4j-api/1.7.5/slf4j-api-1.7.5.jar
+cp %{SOURCE50} %{buildroot}/usr/share/java/.m2/repository/org/slf4j/slf4j-api/1.7.5/slf4j-api-1.7.5.jar
 
 mkdir -p %{buildroot}/usr/share/java/.m2/repository/org/slf4j/slf4j-api/1.7.5
-cp %{SOURCE48} %{buildroot}/usr/share/java/.m2/repository/org/slf4j/slf4j-api/1.7.5/slf4j-api-1.7.5.pom
+cp %{SOURCE51} %{buildroot}/usr/share/java/.m2/repository/org/slf4j/slf4j-api/1.7.5/slf4j-api-1.7.5.pom
 
 mkdir -p %{buildroot}/usr/share/java/.m2/repository/org/slf4j/slf4j-api/1.7.7
-cp %{SOURCE49} %{buildroot}/usr/share/java/.m2/repository/org/slf4j/slf4j-api/1.7.7/slf4j-api-1.7.7.jar
+cp %{SOURCE52} %{buildroot}/usr/share/java/.m2/repository/org/slf4j/slf4j-api/1.7.7/slf4j-api-1.7.7.jar
 
 mkdir -p %{buildroot}/usr/share/java/.m2/repository/org/slf4j/slf4j-api/1.7.7
-cp %{SOURCE50} %{buildroot}/usr/share/java/.m2/repository/org/slf4j/slf4j-api/1.7.7/slf4j-api-1.7.7.pom
+cp %{SOURCE53} %{buildroot}/usr/share/java/.m2/repository/org/slf4j/slf4j-api/1.7.7/slf4j-api-1.7.7.pom
 
 mkdir -p %{buildroot}/usr/share/java/.m2/repository/org/slf4j/slf4j-jdk14/1.5.6
-cp %{SOURCE51} %{buildroot}/usr/share/java/.m2/repository/org/slf4j/slf4j-jdk14/1.5.6/slf4j-jdk14-1.5.6.jar
+cp %{SOURCE54} %{buildroot}/usr/share/java/.m2/repository/org/slf4j/slf4j-jdk14/1.5.6/slf4j-jdk14-1.5.6.jar
 
 mkdir -p %{buildroot}/usr/share/java/.m2/repository/org/slf4j/slf4j-jdk14/1.5.6
-cp %{SOURCE52} %{buildroot}/usr/share/java/.m2/repository/org/slf4j/slf4j-jdk14/1.5.6/slf4j-jdk14-1.5.6.pom
+cp %{SOURCE55} %{buildroot}/usr/share/java/.m2/repository/org/slf4j/slf4j-jdk14/1.5.6/slf4j-jdk14-1.5.6.pom
 
 mkdir -p %{buildroot}/usr/share/java/.m2/repository/org/slf4j/slf4j-log4j12/1.6.1
-cp %{SOURCE53} %{buildroot}/usr/share/java/.m2/repository/org/slf4j/slf4j-log4j12/1.6.1/slf4j-log4j12-1.6.1.jar
+cp %{SOURCE56} %{buildroot}/usr/share/java/.m2/repository/org/slf4j/slf4j-log4j12/1.6.1/slf4j-log4j12-1.6.1.jar
 
 mkdir -p %{buildroot}/usr/share/java/.m2/repository/org/slf4j/slf4j-log4j12/1.6.1
-cp %{SOURCE54} %{buildroot}/usr/share/java/.m2/repository/org/slf4j/slf4j-log4j12/1.6.1/slf4j-log4j12-1.6.1.pom
+cp %{SOURCE57} %{buildroot}/usr/share/java/.m2/repository/org/slf4j/slf4j-log4j12/1.6.1/slf4j-log4j12-1.6.1.pom
 
 mkdir -p %{buildroot}/usr/share/java/.m2/repository/org/slf4j/slf4j-log4j12/1.7.25
-cp %{SOURCE55} %{buildroot}/usr/share/java/.m2/repository/org/slf4j/slf4j-log4j12/1.7.25/slf4j-log4j12-1.7.25.jar
+cp %{SOURCE58} %{buildroot}/usr/share/java/.m2/repository/org/slf4j/slf4j-log4j12/1.7.25/slf4j-log4j12-1.7.25.jar
 
 mkdir -p %{buildroot}/usr/share/java/.m2/repository/org/slf4j/slf4j-log4j12/1.7.25
-cp %{SOURCE56} %{buildroot}/usr/share/java/.m2/repository/org/slf4j/slf4j-log4j12/1.7.25/slf4j-log4j12-1.7.25.pom
+cp %{SOURCE59} %{buildroot}/usr/share/java/.m2/repository/org/slf4j/slf4j-log4j12/1.7.25/slf4j-log4j12-1.7.25.pom
 
 mkdir -p %{buildroot}/usr/share/java/.m2/repository/org/slf4j/slf4j-nop/1.5.3
-cp %{SOURCE57} %{buildroot}/usr/share/java/.m2/repository/org/slf4j/slf4j-nop/1.5.3/slf4j-nop-1.5.3.jar
+cp %{SOURCE60} %{buildroot}/usr/share/java/.m2/repository/org/slf4j/slf4j-nop/1.5.3/slf4j-nop-1.5.3.jar
 
 mkdir -p %{buildroot}/usr/share/java/.m2/repository/org/slf4j/slf4j-nop/1.5.3
-cp %{SOURCE58} %{buildroot}/usr/share/java/.m2/repository/org/slf4j/slf4j-nop/1.5.3/slf4j-nop-1.5.3.pom
+cp %{SOURCE61} %{buildroot}/usr/share/java/.m2/repository/org/slf4j/slf4j-nop/1.5.3/slf4j-nop-1.5.3.pom
 
 mkdir -p %{buildroot}/usr/share/java/.m2/repository/org/slf4j/slf4j-nop/1.6.4
-cp %{SOURCE59} %{buildroot}/usr/share/java/.m2/repository/org/slf4j/slf4j-nop/1.6.4/slf4j-nop-1.6.4.jar
+cp %{SOURCE62} %{buildroot}/usr/share/java/.m2/repository/org/slf4j/slf4j-nop/1.6.4/slf4j-nop-1.6.4.jar
 
 mkdir -p %{buildroot}/usr/share/java/.m2/repository/org/slf4j/slf4j-nop/1.6.4
-cp %{SOURCE60} %{buildroot}/usr/share/java/.m2/repository/org/slf4j/slf4j-nop/1.6.4/slf4j-nop-1.6.4.pom
+cp %{SOURCE63} %{buildroot}/usr/share/java/.m2/repository/org/slf4j/slf4j-nop/1.6.4/slf4j-nop-1.6.4.pom
 
 mkdir -p %{buildroot}/usr/share/java/.m2/repository/org/slf4j/slf4j-parent/1.5.3
-cp %{SOURCE61} %{buildroot}/usr/share/java/.m2/repository/org/slf4j/slf4j-parent/1.5.3/slf4j-parent-1.5.3.pom
+cp %{SOURCE64} %{buildroot}/usr/share/java/.m2/repository/org/slf4j/slf4j-parent/1.5.3/slf4j-parent-1.5.3.pom
 
 mkdir -p %{buildroot}/usr/share/java/.m2/repository/org/slf4j/slf4j-parent/1.5.6
-cp %{SOURCE62} %{buildroot}/usr/share/java/.m2/repository/org/slf4j/slf4j-parent/1.5.6/slf4j-parent-1.5.6.pom
+cp %{SOURCE65} %{buildroot}/usr/share/java/.m2/repository/org/slf4j/slf4j-parent/1.5.6/slf4j-parent-1.5.6.pom
 
 mkdir -p %{buildroot}/usr/share/java/.m2/repository/org/slf4j/slf4j-parent/1.6.1
-cp %{SOURCE63} %{buildroot}/usr/share/java/.m2/repository/org/slf4j/slf4j-parent/1.6.1/slf4j-parent-1.6.1.pom
+cp %{SOURCE66} %{buildroot}/usr/share/java/.m2/repository/org/slf4j/slf4j-parent/1.6.1/slf4j-parent-1.6.1.pom
 
 mkdir -p %{buildroot}/usr/share/java/.m2/repository/org/slf4j/slf4j-parent/1.6.4
-cp %{SOURCE64} %{buildroot}/usr/share/java/.m2/repository/org/slf4j/slf4j-parent/1.6.4/slf4j-parent-1.6.4.pom
+cp %{SOURCE67} %{buildroot}/usr/share/java/.m2/repository/org/slf4j/slf4j-parent/1.6.4/slf4j-parent-1.6.4.pom
 
 mkdir -p %{buildroot}/usr/share/java/.m2/repository/org/slf4j/slf4j-parent/1.7.10
-cp %{SOURCE65} %{buildroot}/usr/share/java/.m2/repository/org/slf4j/slf4j-parent/1.7.10/slf4j-parent-1.7.10.pom
+cp %{SOURCE68} %{buildroot}/usr/share/java/.m2/repository/org/slf4j/slf4j-parent/1.7.10/slf4j-parent-1.7.10.pom
+
+mkdir -p %{buildroot}/usr/share/java/.m2/repository/org/slf4j/slf4j-parent/1.7.15
+cp %{SOURCE69} %{buildroot}/usr/share/java/.m2/repository/org/slf4j/slf4j-parent/1.7.15/slf4j-parent-1.7.15.pom
 
 mkdir -p %{buildroot}/usr/share/java/.m2/repository/org/slf4j/slf4j-parent/1.7.25
-cp %{SOURCE66} %{buildroot}/usr/share/java/.m2/repository/org/slf4j/slf4j-parent/1.7.25/slf4j-parent-1.7.25.pom
+cp %{SOURCE70} %{buildroot}/usr/share/java/.m2/repository/org/slf4j/slf4j-parent/1.7.25/slf4j-parent-1.7.25.pom
 
 mkdir -p %{buildroot}/usr/share/java/.m2/repository/org/slf4j/slf4j-parent/1.7.5
-cp %{SOURCE67} %{buildroot}/usr/share/java/.m2/repository/org/slf4j/slf4j-parent/1.7.5/slf4j-parent-1.7.5.pom
+cp %{SOURCE71} %{buildroot}/usr/share/java/.m2/repository/org/slf4j/slf4j-parent/1.7.5/slf4j-parent-1.7.5.pom
 
 mkdir -p %{buildroot}/usr/share/java/.m2/repository/org/slf4j/slf4j-parent/1.7.7
-cp %{SOURCE68} %{buildroot}/usr/share/java/.m2/repository/org/slf4j/slf4j-parent/1.7.7/slf4j-parent-1.7.7.pom
+cp %{SOURCE72} %{buildroot}/usr/share/java/.m2/repository/org/slf4j/slf4j-parent/1.7.7/slf4j-parent-1.7.7.pom
 
 mkdir -p %{buildroot}/usr/share/java/.m2/repository/org/slf4j/slf4j-simple/1.6.4
-cp %{SOURCE69} %{buildroot}/usr/share/java/.m2/repository/org/slf4j/slf4j-simple/1.6.4/slf4j-simple-1.6.4.jar
+cp %{SOURCE73} %{buildroot}/usr/share/java/.m2/repository/org/slf4j/slf4j-simple/1.6.4/slf4j-simple-1.6.4.jar
 
 mkdir -p %{buildroot}/usr/share/java/.m2/repository/org/slf4j/slf4j-simple/1.6.4
-cp %{SOURCE70} %{buildroot}/usr/share/java/.m2/repository/org/slf4j/slf4j-simple/1.6.4/slf4j-simple-1.6.4.pom
+cp %{SOURCE74} %{buildroot}/usr/share/java/.m2/repository/org/slf4j/slf4j-simple/1.6.4/slf4j-simple-1.6.4.pom
 
 mkdir -p %{buildroot}/usr/share/java/.m2/repository/org/slf4j/slf4j-simple/1.7.25
-cp %{SOURCE71} %{buildroot}/usr/share/java/.m2/repository/org/slf4j/slf4j-simple/1.7.25/slf4j-simple-1.7.25-sources.jar
+cp %{SOURCE75} %{buildroot}/usr/share/java/.m2/repository/org/slf4j/slf4j-simple/1.7.25/slf4j-simple-1.7.25-sources.jar
 
 mkdir -p %{buildroot}/usr/share/java/.m2/repository/org/slf4j/slf4j-simple/1.7.25
-cp %{SOURCE72} %{buildroot}/usr/share/java/.m2/repository/org/slf4j/slf4j-simple/1.7.25/slf4j-simple-1.7.25.jar
+cp %{SOURCE76} %{buildroot}/usr/share/java/.m2/repository/org/slf4j/slf4j-simple/1.7.25/slf4j-simple-1.7.25.jar
 
 mkdir -p %{buildroot}/usr/share/java/.m2/repository/org/slf4j/slf4j-simple/1.7.25
-cp %{SOURCE73} %{buildroot}/usr/share/java/.m2/repository/org/slf4j/slf4j-simple/1.7.25/slf4j-simple-1.7.25.pom
+cp %{SOURCE77} %{buildroot}/usr/share/java/.m2/repository/org/slf4j/slf4j-simple/1.7.25/slf4j-simple-1.7.25.pom
 
 mkdir -p %{buildroot}/usr/share/java/.m2/repository/org/slf4j/slf4j-simple/1.7.5
-cp %{SOURCE74} %{buildroot}/usr/share/java/.m2/repository/org/slf4j/slf4j-simple/1.7.5/slf4j-simple-1.7.5.jar
+cp %{SOURCE78} %{buildroot}/usr/share/java/.m2/repository/org/slf4j/slf4j-simple/1.7.5/slf4j-simple-1.7.5.jar
 
 mkdir -p %{buildroot}/usr/share/java/.m2/repository/org/slf4j/slf4j-simple/1.7.5
-cp %{SOURCE75} %{buildroot}/usr/share/java/.m2/repository/org/slf4j/slf4j-simple/1.7.5/slf4j-simple-1.7.5.pom
+cp %{SOURCE79} %{buildroot}/usr/share/java/.m2/repository/org/slf4j/slf4j-simple/1.7.5/slf4j-simple-1.7.5.pom
+
+mkdir -p %{buildroot}/usr/share/java/.m2/repository/org/slf4j/slf4j-simple/1.7.7
+cp %{SOURCE80} %{buildroot}/usr/share/java/.m2/repository/org/slf4j/slf4j-simple/1.7.7/slf4j-simple-1.7.7.jar
+
+mkdir -p %{buildroot}/usr/share/java/.m2/repository/org/slf4j/slf4j-simple/1.7.7
+cp %{SOURCE81} %{buildroot}/usr/share/java/.m2/repository/org/slf4j/slf4j-simple/1.7.7/slf4j-simple-1.7.7.pom
 
 
 %files
@@ -340,23 +346,18 @@ cp %{SOURCE75} %{buildroot}/usr/share/java/.m2/repository/org/slf4j/slf4j-simple
 %defattr(-,root,root,-)
 /usr/share/java/.m2/repository/org/slf4j/jcl-over-slf4j/1.5.6/jcl-over-slf4j-1.5.6.jar
 /usr/share/java/.m2/repository/org/slf4j/jcl-over-slf4j/1.5.6/jcl-over-slf4j-1.5.6.pom
-/usr/share/java/.m2/repository/org/slf4j/jcl-over-slf4j/1.7.10/jcl-over-slf4j-1.7.10.jar
-/usr/share/java/.m2/repository/org/slf4j/jcl-over-slf4j/1.7.10/jcl-over-slf4j-1.7.10.pom
 /usr/share/java/.m2/repository/org/slf4j/jcl-over-slf4j/1.7.16/jcl-over-slf4j-1.7.16.jar
 /usr/share/java/.m2/repository/org/slf4j/jcl-over-slf4j/1.7.16/jcl-over-slf4j-1.7.16.pom
 /usr/share/java/.m2/repository/org/slf4j/jcl-over-slf4j/1.7.25/jcl-over-slf4j-1.7.25.jar
 /usr/share/java/.m2/repository/org/slf4j/jcl-over-slf4j/1.7.25/jcl-over-slf4j-1.7.25.pom
 /usr/share/java/.m2/repository/org/slf4j/jcl-over-slf4j/1.7.5/jcl-over-slf4j-1.7.5.jar
 /usr/share/java/.m2/repository/org/slf4j/jcl-over-slf4j/1.7.5/jcl-over-slf4j-1.7.5.pom
+/usr/share/java/.m2/repository/org/slf4j/jcl-over-slf4j/1.7.7/jcl-over-slf4j-1.7.7.jar
 /usr/share/java/.m2/repository/org/slf4j/jcl-over-slf4j/1.7.7/jcl-over-slf4j-1.7.7.pom
-/usr/share/java/.m2/repository/org/slf4j/jul-to-slf4j/1.7.10/jul-to-slf4j-1.7.10.jar
-/usr/share/java/.m2/repository/org/slf4j/jul-to-slf4j/1.7.10/jul-to-slf4j-1.7.10.pom
 /usr/share/java/.m2/repository/org/slf4j/jul-to-slf4j/1.7.16/jul-to-slf4j-1.7.16.jar
 /usr/share/java/.m2/repository/org/slf4j/jul-to-slf4j/1.7.16/jul-to-slf4j-1.7.16.pom
 /usr/share/java/.m2/repository/org/slf4j/jul-to-slf4j/1.7.25/jul-to-slf4j-1.7.25.jar
 /usr/share/java/.m2/repository/org/slf4j/jul-to-slf4j/1.7.25/jul-to-slf4j-1.7.25.pom
-/usr/share/java/.m2/repository/org/slf4j/log4j-over-slf4j/1.7.10/log4j-over-slf4j-1.7.10.jar
-/usr/share/java/.m2/repository/org/slf4j/log4j-over-slf4j/1.7.10/log4j-over-slf4j-1.7.10.pom
 /usr/share/java/.m2/repository/org/slf4j/slf4j-api/1.5.2/slf4j-api-1.5.2.pom
 /usr/share/java/.m2/repository/org/slf4j/slf4j-api/1.5.3/slf4j-api-1.5.3.jar
 /usr/share/java/.m2/repository/org/slf4j/slf4j-api/1.5.3/slf4j-api-1.5.3.pom
@@ -371,6 +372,8 @@ cp %{SOURCE75} %{buildroot}/usr/share/java/.m2/repository/org/slf4j/slf4j-simple
 /usr/share/java/.m2/repository/org/slf4j/slf4j-api/1.7.12/slf4j-api-1.7.12-sources.jar
 /usr/share/java/.m2/repository/org/slf4j/slf4j-api/1.7.12/slf4j-api-1.7.12.jar
 /usr/share/java/.m2/repository/org/slf4j/slf4j-api/1.7.12/slf4j-api-1.7.12.pom
+/usr/share/java/.m2/repository/org/slf4j/slf4j-api/1.7.15/slf4j-api-1.7.15.jar
+/usr/share/java/.m2/repository/org/slf4j/slf4j-api/1.7.15/slf4j-api-1.7.15.pom
 /usr/share/java/.m2/repository/org/slf4j/slf4j-api/1.7.16/slf4j-api-1.7.16.jar
 /usr/share/java/.m2/repository/org/slf4j/slf4j-api/1.7.16/slf4j-api-1.7.16.pom
 /usr/share/java/.m2/repository/org/slf4j/slf4j-api/1.7.25/slf4j-api-1.7.25.jar
@@ -398,6 +401,7 @@ cp %{SOURCE75} %{buildroot}/usr/share/java/.m2/repository/org/slf4j/slf4j-simple
 /usr/share/java/.m2/repository/org/slf4j/slf4j-parent/1.6.4/slf4j-parent-1.6.4.pom
 /usr/share/java/.m2/repository/org/slf4j/slf4j-parent/1.7.10/slf4j-parent-1.7.10.pom
 /usr/share/java/.m2/repository/org/slf4j/slf4j-parent/1.7.12/slf4j-parent-1.7.12.pom
+/usr/share/java/.m2/repository/org/slf4j/slf4j-parent/1.7.15/slf4j-parent-1.7.15.pom
 /usr/share/java/.m2/repository/org/slf4j/slf4j-parent/1.7.16/slf4j-parent-1.7.16.pom
 /usr/share/java/.m2/repository/org/slf4j/slf4j-parent/1.7.25/slf4j-parent-1.7.25.pom
 /usr/share/java/.m2/repository/org/slf4j/slf4j-parent/1.7.5/slf4j-parent-1.7.5.pom
@@ -409,3 +413,5 @@ cp %{SOURCE75} %{buildroot}/usr/share/java/.m2/repository/org/slf4j/slf4j-simple
 /usr/share/java/.m2/repository/org/slf4j/slf4j-simple/1.7.25/slf4j-simple-1.7.25.pom
 /usr/share/java/.m2/repository/org/slf4j/slf4j-simple/1.7.5/slf4j-simple-1.7.5.jar
 /usr/share/java/.m2/repository/org/slf4j/slf4j-simple/1.7.5/slf4j-simple-1.7.5.pom
+/usr/share/java/.m2/repository/org/slf4j/slf4j-simple/1.7.7/slf4j-simple-1.7.7.jar
+/usr/share/java/.m2/repository/org/slf4j/slf4j-simple/1.7.7/slf4j-simple-1.7.7.pom
