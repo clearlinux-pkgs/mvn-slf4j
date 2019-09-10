@@ -4,7 +4,7 @@
 #
 Name     : mvn-slf4j
 Version  : 1.5.6
-Release  : 13
+Release  : 14
 URL      : https://repo1.maven.org/maven2/org/slf4j/jcl-over-slf4j/1.5.6/jcl-over-slf4j-1.5.6.jar
 Source0  : https://repo1.maven.org/maven2/org/slf4j/jcl-over-slf4j/1.5.6/jcl-over-slf4j-1.5.6.jar
 Source1  : https://repo.gradle.org/gradle/libs-releases/org/slf4j/jcl-over-slf4j/1.7.10/jcl-over-slf4j-1.7.10.jar
@@ -119,6 +119,24 @@ data components for the mvn-slf4j package.
 %install
 mkdir -p %{buildroot}/usr/share/java/.m2/repository/org/slf4j/jcl-over-slf4j/1.5.6
 cp %{SOURCE0} %{buildroot}/usr/share/java/.m2/repository/org/slf4j/jcl-over-slf4j/1.5.6/jcl-over-slf4j-1.5.6.jar
+
+mkdir -p %{buildroot}/usr/share/java/.m2/repository/org/slf4j/jcl-over-slf4j/1.7.10
+cp %{SOURCE1} %{buildroot}/usr/share/java/.m2/repository/org/slf4j/jcl-over-slf4j/1.7.10/jcl-over-slf4j-1.7.10.jar
+
+mkdir -p %{buildroot}/usr/share/java/.m2/repository/org/slf4j/jcl-over-slf4j/1.7.10
+cp %{SOURCE2} %{buildroot}/usr/share/java/.m2/repository/org/slf4j/jcl-over-slf4j/1.7.10/jcl-over-slf4j-1.7.10.pom
+
+mkdir -p %{buildroot}/usr/share/java/.m2/repository/org/slf4j/jul-to-slf4j/1.7.10
+cp %{SOURCE3} %{buildroot}/usr/share/java/.m2/repository/org/slf4j/jul-to-slf4j/1.7.10/jul-to-slf4j-1.7.10.jar
+
+mkdir -p %{buildroot}/usr/share/java/.m2/repository/org/slf4j/jul-to-slf4j/1.7.10
+cp %{SOURCE4} %{buildroot}/usr/share/java/.m2/repository/org/slf4j/jul-to-slf4j/1.7.10/jul-to-slf4j-1.7.10.pom
+
+mkdir -p %{buildroot}/usr/share/java/.m2/repository/org/slf4j/log4j-over-slf4j/1.7.10
+cp %{SOURCE5} %{buildroot}/usr/share/java/.m2/repository/org/slf4j/log4j-over-slf4j/1.7.10/log4j-over-slf4j-1.7.10.jar
+
+mkdir -p %{buildroot}/usr/share/java/.m2/repository/org/slf4j/log4j-over-slf4j/1.7.10
+cp %{SOURCE6} %{buildroot}/usr/share/java/.m2/repository/org/slf4j/log4j-over-slf4j/1.7.10/log4j-over-slf4j-1.7.10.pom
 
 mkdir -p %{buildroot}/usr/share/java/.m2/repository/org/slf4j/jcl-over-slf4j/1.7.16
 cp %{SOURCE7} %{buildroot}/usr/share/java/.m2/repository/org/slf4j/jcl-over-slf4j/1.7.16/jcl-over-slf4j-1.7.16.jar
@@ -368,6 +386,8 @@ cp %{SOURCE86} %{buildroot}/usr/share/java/.m2/repository/org/slf4j/slf4j-simple
 %defattr(-,root,root,-)
 /usr/share/java/.m2/repository/org/slf4j/jcl-over-slf4j/1.5.6/jcl-over-slf4j-1.5.6.jar
 /usr/share/java/.m2/repository/org/slf4j/jcl-over-slf4j/1.5.6/jcl-over-slf4j-1.5.6.pom
+/usr/share/java/.m2/repository/org/slf4j/jcl-over-slf4j/1.7.10/jcl-over-slf4j-1.7.10.jar
+/usr/share/java/.m2/repository/org/slf4j/jcl-over-slf4j/1.7.10/jcl-over-slf4j-1.7.10.pom
 /usr/share/java/.m2/repository/org/slf4j/jcl-over-slf4j/1.7.16/jcl-over-slf4j-1.7.16.jar
 /usr/share/java/.m2/repository/org/slf4j/jcl-over-slf4j/1.7.16/jcl-over-slf4j-1.7.16.pom
 /usr/share/java/.m2/repository/org/slf4j/jcl-over-slf4j/1.7.25/jcl-over-slf4j-1.7.25.jar
@@ -376,10 +396,14 @@ cp %{SOURCE86} %{buildroot}/usr/share/java/.m2/repository/org/slf4j/slf4j-simple
 /usr/share/java/.m2/repository/org/slf4j/jcl-over-slf4j/1.7.5/jcl-over-slf4j-1.7.5.pom
 /usr/share/java/.m2/repository/org/slf4j/jcl-over-slf4j/1.7.7/jcl-over-slf4j-1.7.7.jar
 /usr/share/java/.m2/repository/org/slf4j/jcl-over-slf4j/1.7.7/jcl-over-slf4j-1.7.7.pom
+/usr/share/java/.m2/repository/org/slf4j/jul-to-slf4j/1.7.10/jul-to-slf4j-1.7.10.jar
+/usr/share/java/.m2/repository/org/slf4j/jul-to-slf4j/1.7.10/jul-to-slf4j-1.7.10.pom
 /usr/share/java/.m2/repository/org/slf4j/jul-to-slf4j/1.7.16/jul-to-slf4j-1.7.16.jar
 /usr/share/java/.m2/repository/org/slf4j/jul-to-slf4j/1.7.16/jul-to-slf4j-1.7.16.pom
 /usr/share/java/.m2/repository/org/slf4j/jul-to-slf4j/1.7.25/jul-to-slf4j-1.7.25.jar
 /usr/share/java/.m2/repository/org/slf4j/jul-to-slf4j/1.7.25/jul-to-slf4j-1.7.25.pom
+/usr/share/java/.m2/repository/org/slf4j/log4j-over-slf4j/1.7.10/log4j-over-slf4j-1.7.10.jar
+/usr/share/java/.m2/repository/org/slf4j/log4j-over-slf4j/1.7.10/log4j-over-slf4j-1.7.10.pom
 /usr/share/java/.m2/repository/org/slf4j/slf4j-api/1.5.2/slf4j-api-1.5.2.pom
 /usr/share/java/.m2/repository/org/slf4j/slf4j-api/1.5.3/slf4j-api-1.5.3.jar
 /usr/share/java/.m2/repository/org/slf4j/slf4j-api/1.5.3/slf4j-api-1.5.3.pom
